@@ -19,7 +19,7 @@
       title: "Will Rishi build a working EV solver?",
       start: "2025-05", end: "2026-05",
       status: "RESOLVED", pct: 100, delta: null,
-      repo: "https://github.com/rishis12/FITH",
+      repo: "https://github.com/rishis12/fireInTheHole",
       blurb: "Preflop 6-max 100BB EV solver for a custom poker variant. Monte Carlo equity engine, frequency-weighted opponent ranges, fold/call/raise/jam EV across all 169 starting hands.",
       milestones: [
         { date: "2025-05", label: "Started build" },
