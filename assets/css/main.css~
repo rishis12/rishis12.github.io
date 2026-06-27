@@ -143,8 +143,8 @@ strong { color: var(--ink); font-weight: 600; }
 }
 .btn:hover { border-color: var(--signal); transform: translateY(-1px); }
 .btn--ghost { background: transparent; }
-.btn--signal { background: #fff; color: var(--signal); border-color: var(--signal); font-weight: 600; }
-.btn--signal:hover { background: var(--canvas); }
+.btn--signal { background: var(--signal); color: var(--canvas); border-color: var(--signal); font-weight: 600; }
+.btn--signal:hover { background: var(--signal-deep); }
 
 /* ---- Cards ------------------------------------------------ */
 .card {
