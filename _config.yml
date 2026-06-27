@@ -1,0 +1,55 @@
+title: Rishi Sanganeria
+tagline: CS + Math @ UW–Madison · quant-curious · builder of solvers and trading systems
+description: >-
+  Personal site of Rishi Sanganeria — computer science and mathematics at
+  UW–Madison. Poker EV solvers, ML trading systems, and the occasional proof.
+url: "https://rishis12.github.io"
+baseurl: ""
+
+author:
+  name: Rishi Sanganeria
+  github: rishis12
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+# Jekyll collection for project writeups
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Nav order — edit labels/links here, rendered by _includes/nav.html
+nav:
+  - name: Experience
+    url: "/#experience"
+  - name: Interests
+    url: "/interests/"
+
+# Default front matter so pages don't each repeat layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+# Exclude dev cruft from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
+
+# GitHub Pages serves a known Jekyll version; this plugin set is on the allowlist
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
